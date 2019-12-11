@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/*
+    Website Development Portfolio
+
+    Author: Wiktoria Biernat
+    Date: 12/11/2019
+
+    Filename: Layout.css
+*/
+
+/*Media Queries*/
+@media only screen and (max-width:500px) {
+    #me {
+        width: 100%;
+    }
+
+    .page {
+        width: 100%;
+        height: 224vh;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #me {
+        width: 80%;
+        padding: 0;
+    }
+
+    .page {
+        width: 100%;
+        height: 150vh;
+    }
+}
+
+/*Layout*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Menu*/
+header > #nav {
+    display: table;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+header > #nav > ul {
+    display: table-row;
+}
+
+header > #nav > ul > li {
+    display: table-cell;
+    text-align: center;
+    max-width: 25px;
+    padding-right: 20px;
+}
+
+header > #nav a {
+    display: block;
+    width: 100%;
+}
+
+/*Pages*/
+#home {
+width: 100%;
+height: 100vh;
+}
+
+#me {
+    float: right;
+    width: 50%;
+    padding-top: 200px;
+    overflow: hidden;
+}
+
+#me > p {
+    margin: 10px;
+}
+
+.title {
+    padding-top: 65px;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+}
+
+#skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#skills > ul > li {
+    margin: 40px;
+}
+
+#goals img {
+    padding-top: 10px;
+    padding-left: 450px;
+}
+
+#contact > .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.images figure {
+    padding: 25px;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding-top: 80px;
+}
+
+#resume > section{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100%;
+}
+
+#resume iframe {
+    width: 50%;
+    height: 80%;
+}
+
+/*Footer*/
+footer {
+    padding: 10px;
+}
