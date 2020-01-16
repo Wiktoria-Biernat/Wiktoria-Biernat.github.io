@@ -121,6 +121,7 @@ header > #nav a {
 .images figcaption {
     font-family: Courier New;
     color: limegreen;
+    text-align: center;
     padding-top: 10px;
 }
 
