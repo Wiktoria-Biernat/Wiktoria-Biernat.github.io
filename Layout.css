@@ -136,11 +136,10 @@ height: 100vh;
     justify-content: center;
     align-content: space-evenly;
     padding-top: 150px;
-    padding-left: 150px;
 }
 
 .images figure {
-    padding: 25px;
+    padding: 35px;
 }
 
 .examples {
